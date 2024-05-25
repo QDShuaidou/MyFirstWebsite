@@ -1,51 +1,69 @@
 <!DOCTYPE html>  
-
-<html lang="zh-CN">  
-
+<html lang="zh">  
 <head>  
-
     <meta charset="UTF-8">  
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-
-    <title>我的第一个HTML页面</title>  
-
-    <!-- 这里可以链接到你的CSS文件 -->  
-
-    <!-- <link rel="stylesheet" href="styles.css"> -->  
-
+    <title>AR汉字</title>  
+    <style>  
+        body {  
+            background-color: #f0f0f0;  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+        }  
+  
+        h1 {  
+            color: #333;  
+            text-align: center;  
+            padding: 20px;  
+        }  
+  
+        .container {  
+            width: 80%;  
+            margin: auto;  
+            padding: 20px;  
+            background-color: #fff;  
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+            /* 增加高度 */  
+            height: 300px; /* 你可以根据需要调整这个值 */  
+            display: flex; /* 使用flex布局使内容垂直居中 */  
+            flex-direction: column;  
+            justify-content: center;  
+            align-items: center;  
+        }  
+  
+        /* 下载按钮样式 */  
+        .download-btn {  
+            display: inline-block;  
+            padding: 10px 20px;  
+            background-color: #4CAF50; /* 绿色 */  
+            border: none;  
+            color: white;  
+            text-align: center;  
+            text-decoration: none;  
+            font-size: 16px;  
+            margin: 10px 0; /* 上下外边距 */  
+            cursor: pointer;  
+            border-radius: 4px;  
+            transition: background-color 0.3s ease;  
+        }  
+  
+        .download-btn:hover {  
+            background-color: #45a049; /* 深绿色 */  
+        }  
+    </style>  
 </head>  
-
 <body>  
-
-    <h1>欢迎来到我的网页！</h1>  
-
-    <p>这是一个简单的HTML页面示例。</p>  
-
-  
-
-    <!-- 你可以在这里添加更多的HTML元素 -->  
-
-  <a href="page2.html">点击跳转<a>
-
-    <h2>列表示例</h2>  
-
-    <ul>  
-
-        <li>项目1</li>  
-
-        <li>项目2</li>  
-
-        <li>项目3</li>  
-
-    </ul>  
-<a href="ARCharacter.apk">立即下载AR汉字！<a>
-  
-
-    <!-- 这里可以链接到你的JavaScript文件 -->  
-
-    <!-- <script src="script.js"></script> -->  
-
+    <h1>欢迎来到AR汉字</h1>  
+    <div class="container">  
+        <p>AR汉字App是一款利用增强现实（AR）技术为儿童提供汉字学习体验的创新型学习软件。它融合了先进的AR技术与传统汉字学习，使学习过程更加生动、有趣和高效。</p>  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        <a href="ARCharacter.apk" class="download-btn" download>下载App</a> <!-- 替换为你的下载链接 -->  
+    </div>  
 </body>  
-
 </html>
